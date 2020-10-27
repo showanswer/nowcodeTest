@@ -53,7 +53,7 @@ public class Page {
     }
 
     /**
-     * 获取当前页的起始行
+     * 获取当前页的起始行，从0开始
      *
      * @return
      */
@@ -77,7 +77,7 @@ public class Page {
     }
 
     /**
-     * 获取起始页码
+     * 获取分页后的  起始页码
      *
      * @return
      */

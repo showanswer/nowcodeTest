@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserMapper {
     //根据id查询
-    User selectByid(Integer id);
+    User selectById(Integer id);
     //根据名称查询
     User selectByName(String username);
     // 根据邮件查询
